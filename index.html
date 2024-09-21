@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Xander Holden">
+    <meta name="description" content="Home page of the principal page for this 7 weeks.">
+    <link rel="icon" href="favicon.ico">
+    <title>WDD 231: Web Frontend Development I - Xander Holden</title>
+    <link href="styles/base.css" type="text/css" rel="stylesheet">
+    <script src="scripts/getdates.js" defer></script>
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+
+    <!--Open Graphs-->
+    <meta property="og:title" content="WDD 231: Web Frontend Development I - Xander Holden"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="images/xander.jpeg"/>
+    <meta property="og:url" content="https://xanderbholden.github.io/wdd231/#"/>
+</head>
+
+<body>
+    <header>
+        <div id="photo">
+            <img id="me-photo" src= images/Xander.jpeg width="150" height="160" loading="lazy" alt="Xander ">
+        </div>
+        <h1>Xander Holden</h1>
+    </header>
+    <button id="menu" name="menu" title="hamburgerMenu"></button>
+    <nav id="navMenu">
+        <ul>
+            <li><a href="#" id="refresh" class="active">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="https://github.com/EduardOrellana/wdd231" target="_blank">Github Profile</a></li>
+            <li><a href="https://www.linkedin.com/in/alexander-holden-788a52167/"
+                    target="_blank">LinkedIn</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="course-work">
+            <h2>Course Work</h2>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
+        <section id="country">
+            <h2>Utah, USA</h2>
+            <figure id="utah-container">
+                <picture id="utah-image">
+                    <source id="mobile-utah" srcset="images/utahlarge.jpg" media="(max-width: 699px)">
+                    <img src="images/utahlarge.jpg" alt="Utah" width="300" height="300" loading="lazy">
+                </picture>
+                <figcaption>Utah, USA</figcaption>
+            </figure>
+        </section>
+        <section id="certificate-content">
+            <h2>Web and Computer Programer Certificate</h2>
+            <div id="buttons-filter">
+                <button name="all-courses" class="general-button" id="all-courses" type="button">All</button>
+                <button name="cse" class="general-button" id="cse" type="button">CSE</button>
+                <button name="wdd" class="general-button" id="wdd" type="button">WDD</button>
+            </div>
+            <div class="container-courses">
+                <!--Here Javascript-->
+            </div>
+        </section>
+        <dialog id="course-details">
+
+        </dialog>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span>  🏎️ Xander B Holden 🚗 Utah/United States 🇺🇸</p>
+        <p id="lastModified">Last modified: <span id="lastModifiedDate"></span></p>
+        <img src="images/flag.png" width="50" height="35" loading="lazy" alt="US flag">
+      </footer>
+    
+    </body>
+    </html>
