@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Erick Orellana">
+    <meta name="description" content="Directory of the Chamber Commerce of Petapa, Guatemala, Guatemala">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Directory of Petapa Commerce - WDD231 Web Frontend Development I</title>
+    <link href="styles/directory.css" type="text/css" rel="stylesheet">
+    <script src="scripts/directory.js" defer></script>
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!--Open Graphs-->
+    <meta property="og:title" content="Directory of the Chamber Commerce of Petapa, Guatemala, Guatemala">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://raw.githubusercontent.com/EduardOrellana/wdd231/main/chamber/images/logos/main-logo.webp">
+    <meta property="og:url" content="https://eduardorellana.github.io/wdd231/chamber/directory.html">
+</head>
+
+<body>
+    <header>
+        <div id="container-logo">
+            <img class="logo-commerce" src="images/logos/main-logo.webp" alt="logo" width="100" height="100" loading="lazy">
+        </div>
+        <div id="title">
+            <h1>Petapa Commerce</h1>
+            <p>Chamber of Commerce</p>
+        </div>
+        <button id="menu"></button>
+        <nav id="navMenu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="buttons">
+            <button id="grid">⏹️Grid</button>
+            <button id="list">📄List</button>
+        </div>
+
+        <section id="directory" class="grid">
+            
+        </section>
+    </main>
+    <footer>
+        <section id="information">
+            <h2>Petapa Commerce Chamber of Commerce</h2>
+            <p>8-19 hourse 44 zona 1, SMP</p>
+            <p>petapacommerce@gmail.com</p>
+            <p>(502) 54236778</p>
+        </section>
+        <section id="social-media">
+            <img class="social-medialogos" src="images/logos/youtube.webp" alt="youtube" width="50" height="50" loading="lazy">
+            <img class="social-medialogos" src="images/logos/twitter.webp" alt="x" width="50" height="50" loading="lazy">
+            <img class="social-medialogos" src="images/logos/instagram.webp" alt="instagram" height="50" width="50" loading="lazy">
+            <img class="social-medialogos" src="images/logos/facbook.webp" alt="facebook" height="50" width="50" loading="lazy">
+        </section>
+        <section id="footer-info">
+            <h2>WDD231 Class Project</h2>
+            <p>Erick Orellana</p>
+            <p>
+                <span>&copy;</span>
+                <span id="currentyear"></span>
+            </p>
+            <p>Petapa Commerce Chamber of Commerce</p>
+            <p id="modified"></p>
+        </section>
+    </footer>
+</body>
+
+</html>
