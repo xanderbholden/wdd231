@@ -1,0 +1,75 @@
+body {
+    font-size: 16px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+  
+header,
+main,
+footer {
+    margin: 1rem;
+    position: relative;
+}
+  
+h1 {
+    color: #000;
+    border-bottom: 1px solid #eee;
+    text-shadow: 0 0 10px #b6a8ed;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+}
+  
+h2 {
+    color: #3e347d;
+    margin: 0 0 1rem 0;
+    border-bottom: 1px solid #bbb;
+}
+  
+h3 {
+    margin: 0;
+}
+  
+p {
+    margin: 0;
+}
+  
+main {
+    margin-left: 2rem;
+}
+  
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+  
+section {
+    margin: 0.25rem;
+    padding: 0.35rem;
+    background-color: #d8cce7;
+    border: 1px solid #9b95b5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section > p {
+    min-height: 40px;
+}
+  
+img {
+    width: auto;
+    max-width: 325px;
+    box-shadow: 0 0 30px #736887;
+    height: 200px;
+    border: 1px solid #160639;
+}
+  
+li > img {
+    width: auto;
+    height: 30px;
+}
+  
+footer {
+    border-top: 1px solid #555555;
+    padding: 20px;
+    text-align: center;
+}

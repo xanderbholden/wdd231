@@ -1,0 +1,298 @@
+:root {
+    --primaryColor: #465fc5;
+    --secondaryColor: #4298d6;
+    --thirdColor: #daefb3;
+    --backgroundColor: #eef4d4;
+    --textColor: #1c2826;
+    --primaryFont: "Ubuntu", sans-serif;
+    --primaryFontWeight: 400;
+    --secondaryFontWeight: 500;
+    --fontBold: 700;
+}
+
+* {
+    font-family: var(--primaryFont);
+    color: var(--textColor);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+header,
+main,
+footer {
+    max-width: 100%;
+}
+
+header {
+    background-color: var(--backgroundColor);
+    display: block;
+    width: 100%;
+    
+}
+
+.logo-commerce {
+    border-radius: 5px;
+    border: 2px solid var(--secondaryColor);
+    margin: 2px;
+    cursor: pointer;
+}
+
+#title {
+    font-size: 50%;
+    text-align: center;
+    top: 15px;
+    margin-left: 120px;
+    position: absolute;
+}
+
+/*Ham Button*/
+#menu {
+    font-size: 2.5rem;
+    border: 0;
+    background: none;
+    color: var(--textColor);
+    position: absolute;
+    right: 20px;
+    top: 5px;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "X";
+}
+
+#navMenu.open a {
+    display: block;
+    font-weight: 400;
+    transition: all 2s;
+}
+
+#navMenu {
+    background-color: var(--backgroundColor);
+    display: flex;
+    flex-direction: column;
+}
+
+#navMenu ul {
+    list-style: none;
+    display: block;
+    width: 100%;
+}
+
+#navMenu a {
+    display: none;
+    text-align: right;
+    padding: 15px 0;
+    text-decoration: none;
+    font-size: 150%;
+    margin-right: 1rem;
+}
+
+#navMenu a:hover {
+    background-color: transparent;
+    color: var(--primaryColor);
+}
+
+/*Footer*/
+
+footer {
+    background-color: var(--backgroundColor);
+    font-size: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#social-media {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.social-medialogos {
+    margin: 0 15px;
+}
+
+#footer-info {
+    margin-bottom: 20px;
+}
+
+#information {
+    margin-top: 20px;
+}
+
+/*Main Design*/
+main {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    color: white;
+    padding: 5rem;
+}
+
+#thanks-section *{
+    text-align: center;
+    font-weight: 140%;
+    color: white;
+    z-index: 2;
+}
+
+#thanks-section {
+    border-radius: 25px;
+    border: 4px solid black;
+    background-color: #d64550;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    font-size: small;
+}
+
+#list-info{
+    list-style: none;
+}
+
+/*Video Desing*/
+
+#myHeroVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9; 
+    object-fit: cover; 
+    margin: 0;
+}
+
+/*Larges Views*/
+@media screen and (min-width: 821px) {
+
+    body {
+        max-width: 1500px;
+        margin: 0 auto;
+
+    }
+    header {
+        display: grid;
+        grid-template-columns: 20% 25% 55%;
+        align-items: center;
+        gap: 10px;
+        /* overflow-x: hidden; */
+        color: var(--textColor);
+    }
+
+    .logo-commerce {
+        grid-column: 1 / 2;
+        margin-left: 3rem;
+    }
+
+    #title {
+        font-size: 90%;
+        text-align: center;
+        position: inherit;
+        margin: 0 auto;
+        grid-column: 2 / 3;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #navMenu {
+        font-size: 100%;
+        /* grid-column: 3 / 4; */
+        max-width: 800px;
+    }
+
+    #navMenu ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        max-width: 800px;
+        justify-content: space-around;
+    }
+
+    #navMenu ul li {
+        padding: 3rem;
+        font-weight: 700;
+        color: var(--textColor);
+    }
+
+    #navMenu ul li a {
+        display: block;
+        text-align: center;     
+        text-decoration: none;
+    }
+
+    #navMenu ul li:hover {
+        background-color: var(--thirdColor);
+        color: var(--textColor);
+    }
+
+    #navMenu ul li:hover a {
+        color: var(--secondaryColor);
+    }
+
+
+    /*Footer*/
+
+    footer {
+        background-color: var(--backgroundColor);
+        font-size: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    #social-media {
+        margin: 2rem 0;
+        text-align: center;
+    }
+    
+    .social-medialogos {
+        width: 50px;
+        margin: 0;
+    }
+    
+    #footer-info {
+        margin-bottom: 0;
+    }
+    
+    #information {
+        margin-top: 0;
+    }
+    
+    /*Main*/
+
+    main {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    
+    /*Video Desing*/
+    
+    #myHeroVideo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        opacity: 0.9; 
+        object-fit: cover; 
+        margin: 0;
+    }
+}

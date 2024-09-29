@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Xander Holden">
+    <meta name="description" content="Join Page of the Chamber Commerce of Provo, Utah, United States">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Join Page Chamber of Provo, Utah Commerce - WDD231 Web Frontend Development I</title>
+    <link href="styles/join.css" type="text/css" rel="stylesheet">
+    <script type="module" src="scripts/join.js"></script>
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!--Open Graphs-->
+    <meta property="og:title" content="Join Page of the Chamber Commerce of Provo, Utah, United States">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://raw.githubusercontent.com/xanderbholden/wdd231/main/chamber/images/provo-logo.jpeg">
+    <meta property="og:url" content="https://xanderbholden.github.io/wdd231/chamber/join.html">
+</head>
+
+<body>
+    <header>
+        <div id="container-logo">
+            <img class="logo-commerce" src="images/provo-logo.jpeg" alt="logo" width="100" height="100"
+                loading="lazy">
+        </div>
+        <div id="title">
+            <h1>Provo, Utah Commerce</h1>
+            <p>Chamber of Commerce</p>
+        </div>
+        <button id="menu"></button>
+        <nav id="navMenu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <video autoplay muted loop id="myHeroVideo">
+            <source src="videos/background-form.mp4" type="video/mp4">
+        </video>
+        <div id="form">
+            <form method="get" class="form1" action="thanku.html">
+                <fieldset id="personal-information">
+                    <legend>Personal Information</legend>
+                    <label class="required" for="first-name">First Name:</label>
+                    <input type="text" autocomplete="given-name" name="first-name" id="first-name" required
+                        title="First Name">
+                    <label class="required" for="last-name">Last Name:</label>
+                    <input type="text" autocomplete="family-name" name="last-name" id="last-name" required
+                        title="Last Name">
+                    <label class="required" for="email">Email Addres:</label>
+                    <input type="email" autocomplete="email" name="email" id="email" required
+                        placeholder="example@gmail.com" title="Your Email Address">
+                    <label class="required" for="phone-number">Phone Number:</label>
+                    <input type="tel" autocomplete="tel" name="phone-numer" id="phone-number" required
+                        placeholder="+(502) 54134" title="Your phone Number with country code">
+                </fieldset>
+                <fieldset id="business-information">
+                    <legend>Business Information</legend>
+                    <label class="required" for="organizational-title">Organization Title:</label>
+                    <input type="text" id="organizational-title" name="organizational-title" autocomplete="organization-title" pattern="[A-Za-z\- ]{7,}" title="only accept alpha characters, hyphens, and spaces with a minimum of seven characters" required>
+                    <label class="required" for="business-name">Business or Organization Name:</label>
+                    <input type="text" id="business-name" name="business-name" autocomplete="organization" title="Name of the Organization" required>
+                    <label for="description-business">Description: </label>
+                    <textarea title="Description of the business" name="description-business" id="description-business" placeholder="Briefly Description"></textarea>
+                </fieldset>
+                <fieldset id="membership-level">
+                    <legend>Membership Section</legend>
+                    <label class="required" for="membership">Choose a membership level</label>
+                    <select id="membership" name="membership" title="Memebrships Leves">
+                        <option value="">--Please choose an option--</option>
+                            <optgroup label="Memberships Leves">
+                            <option value="np">NP</option>
+                            <option value="bronze">Bronze Membership</option>
+                            <option value="silver">Silver Membership</option>
+                            <option value="gold">Gold Membership</option>
+                        </optgroup>
+                    </select>
+                    <h2 id="title-memberships">Types of Memberships</h2>
+                    <section id="details-memberships">
+
+                    </section>
+                    <dialog id="dialog-membership">
+                        
+                    </dialog>
+                </fieldset>
+                <input type="hidden" id="timestamp" name="timestamp">
+                <input type="submit" id="button-submitt" name="submit" value="Join">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <section id="information">
+            <h2>Provo, Utah Chamber of Commerce</h2>
+            <p>Utah Mountain Standard Time </p>
+            <p>provocommerce@gmail.com</p>
+            <p>(801)123-4567</p>
+        </section>
+        <section id="social-media">
+           
+            <img class="social-medialogos" src="images/youtube.jpg" alt="youtube" width="50" height="50"
+                loading="lazy">
+            <img class="social-medialogos" src="images/tiktok.jpg" alt="TikTok" width="50" height="50"
+                loading="lazy">
+            <img class="social-medialogos" src="images/instagram.jpg" alt="instagram" height="50" width="50"
+                loading="lazy">
+            <img class="social-medialogos" src="images/facebook.jpg" alt="facebook" height="50" width="50"
+                loading="lazy">
+        </section>
+        <section id="footer-info">
+            <h2>WDD231 Class Project</h2>
+            <p>Xander Holden</p>
+            <p>
+                <span>&copy;</span>
+                <span id="currentyear"></span>
+            </p>
+            <p>Provo - Utah Chamber of Commerce</p>
+            <p id="modified"></p>
+        </section>
+    </footer>
+</body>
+
+</html>
