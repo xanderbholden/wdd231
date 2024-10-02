@@ -1,0 +1,68 @@
+{
+    "directory": [
+
+        {
+            "name": "Casa Victoria Restaurante Mexicano",
+            "address": "2128 W Center St, Provo, UT 84601",
+            "phone_number": "(385) 314-1001",
+            "website_url": "https://order.toasttab.com/online/casa-victoria",
+            "image": "chamber/images/casa-victoria.jpg",
+            "membership_level": 2,
+            "type": "food"
+        },
+        {
+            "name": "Se llama Peru",
+            "address": "368 W Center St, Provo, UT 84601",
+            "phone_number": "(801) 375-0275",
+            "website_url": "sellamaperuutah.com",
+            "image": "chamber/images/logo-se-llama-peru.png",
+            "membership_level": 3,
+            "type": "food"
+        },
+        {
+            "name": "Modern Shoe",
+            "address": "362 W Center St, Provo, UT 84601",
+            "phone_number": "(801) 375-2711",
+            "website_url": "https://modernshoe.com/",
+            "image": "chamber/images/logo_modershoe.svg",
+            "membership_level": 2,
+            "type": "clothing"
+        },
+        {
+            "name": "South End Market",
+            "address": "700 E 820 N, Provo, UT 84606",
+            "phone_number": "(801) 374-4794",
+            "website_url": "https://www.southendmarket.com/",
+            "image": "chamber/images/logo-southend.png",
+            "membership_level": 1,
+            "type": "market"
+        },
+        {
+            "name": "Dragons Keep",
+            "address": "260 N University Ave, Provo, UT 84601",
+            "phone_number": "(801) 373-3482",
+            "website_url": "https://www.dragonskeep.com/",
+            "image": "chamber/images/dragonskeep.png",
+            "membership_level": 2,
+            "type": "Novelties"
+        },
+        {
+            "name": "What's Hot Clothing",
+            "address": "110 W Center St, Provo, UT 84601",
+            "phone_number": "(801) 377-5212",
+            "website_url": "https://www.whatshotclothing.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb",
+            "image": "chamber/images/Logo_WhatsHotClothing.jpg",
+            "membership_level": 2,
+            "type": "clothing"
+        },
+        {
+            "name": "Pioneer Book",
+            "address": "450 W Center St, Provo, UT 84601",
+            "phone_number": "(801) 225-2665",
+            "website_url": "https://www.pioneerbook.com/",
+            "image": "chamber/images/pioneer-logo.png",
+            "membership_level": 1,
+            "type": "book store"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "collage": [
+        {
+            "name" : "Our Origins",
+            "link" : "chamber/images/provo-origins.jpeg",
+            "description" : "We began with a small group, now we are growing up faster and you can participate with us."
+        },
+        {
+            "name" : "Lanscape",
+            "link" : "chamber/images/map.jpg",
+            "description" : "We have a place to take relaxing time if you are going through stress."
+        },
+        {
+            "name" : "Motivation",
+            "link" : "https://raw.githubusercontent.com/EduardOrellana/wdd231/main/chamber/images/discover-page/motivation.webp",
+            "description" : "Remember your achievements just matter if you do your best."
+        },
+        {
+            "name" : "Social Media",
+            "link" : "https://raw.githubusercontent.com/EduardOrellana/wdd231/main/chamber/images/discover-page/socialmedia.webp",
+            "description" : "Take advantage of the Social Media! set your social accounts, if you need help there are stakeholder that will help you out."
+        },
+        {
+            "name" : "Statistics",
+            "link" : "https://raw.githubusercontent.com/EduardOrellana/wdd231/main/chamber/images/discover-page/statistics.webp",
+            "description" : "Since our studies one commerce can grow more if it commerce is enrolled and is participating in an active community online, throught the web and internet you can get more clients."
+        },
+        {
+            "name" : "Sucess",
+            "link" : "https://raw.githubusercontent.com/EduardOrellana/wdd231/main/chamber/images/discover-page/success.webp",
+            "description" : "You can increase your sucess by the techology and in this chamber commerce you will get more contacts for business."
+        },
+        {
+            "name" : "Welcome",
+            "link" : "https://raw.githubusercontent.com/EduardOrellana/wdd231/main/chamber/images/discover-page/welcome.webp",
+            "description" : "Do not waste more time! come join us! just click on Join Us Button!!"
+        }
+    ]
+}
