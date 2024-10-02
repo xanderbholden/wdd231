@@ -6,7 +6,7 @@
             "address": "2128 W Center St, Provo, UT 84601",
             "phone_number": "(385) 314-1001",
             "website_url": "https://order.toasttab.com/online/casa-victoria",
-            "image": "chamber/images/casa-victoria.jpg",
+            "image": "images/casa-victoria.jpg",
             "membership_level": 2,
             "type": "food"
         },
@@ -15,7 +15,7 @@
             "address": "368 W Center St, Provo, UT 84601",
             "phone_number": "(801) 375-0275",
             "website_url": "sellamaperuutah.com",
-            "image": "chamber/images/logo-se-llama-peru.png",
+            "image": "images/logo-se-llama-peru.png",
             "membership_level": 3,
             "type": "food"
         },
@@ -24,7 +24,7 @@
             "address": "362 W Center St, Provo, UT 84601",
             "phone_number": "(801) 375-2711",
             "website_url": "https://modernshoe.com/",
-            "image": "chamber/images/logo_modershoe.svg",
+            "image": "images/logo_modershoe.svg",
             "membership_level": 2,
             "type": "clothing"
         },
@@ -33,7 +33,7 @@
             "address": "700 E 820 N, Provo, UT 84606",
             "phone_number": "(801) 374-4794",
             "website_url": "https://www.southendmarket.com/",
-            "image": "chamber/images/logo-southend.png",
+            "image": "images/logo-southend.png",
             "membership_level": 1,
             "type": "market"
         },
