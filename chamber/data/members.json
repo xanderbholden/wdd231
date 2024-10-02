@@ -42,7 +42,7 @@
             "address": "260 N University Ave, Provo, UT 84601",
             "phone_number": "(801) 373-3482",
             "website_url": "https://www.dragonskeep.com/",
-            "image": "chamber/images/dragonskeep.png",
+            "image": "images/dragonskeep.png",
             "membership_level": 2,
             "type": "Novelties"
         },
@@ -51,7 +51,7 @@
             "address": "110 W Center St, Provo, UT 84601",
             "phone_number": "(801) 377-5212",
             "website_url": "https://www.whatshotclothing.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb",
-            "image": "chamber/images/Logo_WhatsHotClothing.jpg",
+            "image": "images/Logo_WhatsHotClothing.jpg",
             "membership_level": 2,
             "type": "clothing"
         },
@@ -60,7 +60,7 @@
             "address": "450 W Center St, Provo, UT 84601",
             "phone_number": "(801) 225-2665",
             "website_url": "https://www.pioneerbook.com/",
-            "image": "chamber/images/pioneer-logo.png",
+            "image": "images/pioneer-logo.png",
             "membership_level": 1,
             "type": "book store"
         }
