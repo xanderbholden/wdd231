@@ -14,21 +14,20 @@ principalDynamic.setHambutton();
 
 
 //Three Business
-const data = 'https://raw.githubusercontent.com/EduardOrellana/wdd231/main/chamber/data/members.json';
+const data = 'https://raw.githubusercontent.com/xanderbholden/wdd231/main/chamber/data/members.json';
 
 //API Weather----------------------------------------------------------------------------------------------
 const weatherContainer = document.querySelector('#weather-list');
 const placeForecast = document.querySelector('#weather-forecast');
 const weatherIcon = document.querySelector('#icon-weather');
 
-// 14.529898598648922, -90.59526334935519
 
-let lat = 14.5269;
-let lon = -90.5875;
-let apiKey = '8aa0b13698894c5f56ccba0bd220bcab';
+let lat = 40.2338; // Provo, UT latitude
+let lon = -111.6585; // Provo, UT longitude
+let apiKey = 'c5abda0bd94a4f731f02aa0304fc4ca8'; // Your OpenWeatherMap API key
 
 const url = `//api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=imperial&appid=${apiKey}`;
-const urlForecast = `//api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${apiKey}`;
+const urlForecast = `//api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&units=imperial&appid=${apiKey}`; // Add units=imperial for Fahrenheit
 
 const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
@@ -118,12 +117,10 @@ function displayForecastWeather(data) {
     const getDay3 = selectDay(data.list[20].dt);
     dayAfterTomorro2.textContent = `${getDay3}: ${temp3}`;
     placeForecast.appendChild(dayAfterTomorro2);
-
 }
 
 let converterTem = (value) => {
-    let result = (value - 273.15) * 9/5 + 32;
-    return `${Math.round(result)}  ℉`;
+    return `${Math.round(value)}  ℉`;
 }
 
 let selectDay = (value) => {

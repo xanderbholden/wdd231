@@ -81,7 +81,7 @@ visitation.handleVisit();
 
 //Insert the collage.
 
-const data = "https://raw.githubusercontent.com/EduardOrellana/wdd231/main/chamber/data/collage.json";
+const data = "https://raw.githubusercontent.com/xanderbholden/wdd231/main/chamber/data/collage.json";
 
 const spaceForColalge = document.querySelector('.collage');
 
