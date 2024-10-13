@@ -65,7 +65,7 @@ function email(word){
 }
 
 container.innerHTML = `
-    <h2>Thanks for your submition ${show('first')}</h2>
+    <h2>Thank You for your submition ${show('first')}</h2>
     <p><br>We have this information:</p><br>
     <ul id="list-info">
         <li>First Name: ${show('first')}</li>
