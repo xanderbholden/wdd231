@@ -11,7 +11,7 @@ principalDynamic.setHambutton();
 
 //More details with memberships levels
 
-const data = "https://raw.githubusercontent.com/EduardOrellana/wdd231/main/chamber/data/memberships-leves.json";
+const data = "https://raw.githubusercontent.com/xanderbholden/wdd231/main/chamber/data/memberships-levels.json";
 
 const spaceMemberships = document.querySelector('#details-memberships');
 const dialogMembership = document.querySelector('#dialog-membership');
@@ -36,8 +36,7 @@ async function getDataMembershiops() {
 }
 
 function displayMemberships(object, space) {
-    //Function to create and display the elements into the HTML
-
+   
     object.forEach(element => {
 
         //Creation of the elements
