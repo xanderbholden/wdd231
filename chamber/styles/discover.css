@@ -1,9 +1,9 @@
 :root {
-    --primaryColor:  #9eabbe;
+    --primaryColor:  #596476;
     --secondaryColor: #f1f2f6;
-    --thirdColor: #f2fb6f;
-    --backgroundColor: #131947;
-    --textColor: #1c2826;
+    --thirdColor: #1c2826;
+    --backgroundColor: hsl(233, 58%, 18%);
+    --textColor: #c2d000;
     --primaryFont: "Ubuntu", sans-serif;
     --primaryFontWeight: 400;
     --secondaryFontWeight: 500;
