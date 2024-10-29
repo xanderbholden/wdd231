@@ -1,0 +1,135 @@
+
+{
+    "inventory": [
+        {
+            "name" : "Isuzy Canella D-Max",
+            "brand" : "Isuzu",
+            "category" : "Truck",
+            "year" : 2023,
+            "engine" : "3.0L TURBO DIESEL INTERCOOLER",
+            "cylinder" : "2999 c.c.",
+            "transmission" : "Manual",
+            "fuel" : "diesel",
+            "ilustration" : "https://raw.githubusercontent.com/EduardOrellana/wdd231/main/project/images/Isuzu%20Dmax.webp",
+            "price" : "Q.102,000.00",
+            "color" : "orange"
+        },
+        {
+            "name" : "Mitsubishi Lancer Evelotion",
+            "brand" : "Mitsubishi",
+            "category" : "sedan",
+            "year" : 2004,
+            "engine" : "2.0L Gasoline Turbo",
+            "cylinder" : "1997 c.c.",
+            "transmission" : "Manual",
+            "fuel" : "Gasoline",
+            "ilustration" : "https://raw.githubusercontent.com/EduardOrellana/wdd231/main/project/images/Lancer%20evolution%209%20MR.webp",
+            "price" : "Q.356,172.64",
+            "color" : "black"
+        },
+        {
+            "name" : "Mitsubishi L200",
+            "brand" : "Mitsubishi",
+            "category" : "Truck",
+            "year" : 2020,
+            "engine" : "4N16 Diesel",
+            "cylinder" : "2.442 c.c.",
+            "transmission" : "Manual",
+            "fuel" : "Diesel",
+            "ilustration" : "https://raw.githubusercontent.com/EduardOrellana/wdd231/main/project/images/Mitsubishi%20L200.webp",
+            "price" : "Q.388,656.28",
+            "color" : "white"
+        },
+        {
+            "name": "Nissan Skyline GTR R35",
+            "brand": "Nissan",
+            "category": "Sports",
+            "year": 2015,
+            "engine": "3.8L V6",
+            "cylinder": "6",
+            "transmission": "6-speed manual",
+            "fuel": "Gasoline",
+            "ilustration": "https://raw.githubusercontent.com/EduardOrellana/wdd231/main/project/images/Nissan%20Skyline%20GTR%20R35.webp",
+            "price": "Q.150,656.28",
+            "color": "blue"
+        },
+        {
+            "name": "Nissan Skyline GTR",
+            "brand": "Nissan",
+            "category": "Sports",
+            "year": 2020,
+            "engine": "3.8L V6",
+            "cylinder": "6",
+            "transmission": "6-speed dual-clutch",
+            "fuel": "Gasoline",
+            "ilustration": "https://raw.githubusercontent.com/EduardOrellana/wdd231/main/project/images/Nissan%20Skyline%20GTR.webp",
+            "price": "Q.110,000.00",
+            "color": "blue"
+        },
+        {
+            "name": "Nissan Frontier",
+            "brand": "Nissan",
+            "category": "Truck",
+            "year": 2021,
+            "engine": "3.8L V6",
+            "cylinder": "6",
+            "transmission": "9-speed automatic",
+            "fuel": "Gasoline",
+            "ilustration": "https://raw.githubusercontent.com/EduardOrellana/wdd231/main/project/images/Nissan%C2%A0Frontier.webp",
+            "price": "Q.220,000.00",
+            "color": "white"
+        },
+        {
+            "name": "Subaru Impreza STI",
+            "brand": "Subaru",
+            "category": "Sports",
+            "year": 2004,
+            "engine": "2.5L turbocharged flat-four",
+            "cylinder": "4",
+            "transmission": "6-speed manual",
+            "fuel": "Gasoline",
+            "ilustration": "https://raw.githubusercontent.com/EduardOrellana/wdd231/main/project/images/Subaru%20impreza%20sti%202004.webp",
+            "price": "Q.90,000.00",
+            "color": "blue"
+        },
+        {
+            "name": "Toyota Hilux",
+            "brand": "Toyota",
+            "category": "Truck",
+            "year": 2023,
+            "engine": "2.8L turbo-diesel",
+            "cylinder": "4",
+            "transmission": "6-speed automatic",
+            "fuel": "Diesel",
+            "ilustration": "https://raw.githubusercontent.com/EduardOrellana/wdd231/main/project/images/Toyota%20Hilux.webp",
+            "price": "Q.350,000.00",
+            "color": "gray"
+        },
+        {
+            "name": "Toyota Supra MK4",
+            "brand": "Toyota",
+            "category": "Sports",
+            "year": 2016,
+            "engine": "3.0L turbocharged inline-six",
+            "cylinder": "6",
+            "transmission": "8-speed automatic",
+            "fuel": "Gasoline",
+            "ilustration": "https://raw.githubusercontent.com/EduardOrellana/wdd231/main/project/images/Toyota%20Supra%20MK4.webp",
+            "price": "Q.95,000.00",
+            "color": "gray"
+        },
+        {
+            "name": "Volkswagen Amarok",
+            "brand": "Volkswagen",
+            "category": "Truck",
+            "year": 2019,
+            "engine": "3.0L V6 turbo-diesel",
+            "cylinder": "6",
+            "transmission": "8-speed automatic",
+            "fuel": "Diesel",
+            "ilustration": "https://raw.githubusercontent.com/EduardOrellana/wdd231/main/project/images/Wollkswagem%20Amarok.webp",
+            "price": "Q.228,500.00",
+            "color": "black"
+        }
+    ]
+}
