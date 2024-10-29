@@ -11,11 +11,11 @@
             "transmission" : "Manual",
             "fuel" : "diesel",
             "ilustration" : "https://raw.githubusercontent.com/EduardOrellana/wdd231/main/project/images/Isuzu%20Dmax.webp",
-            "price" : "Q.102,000.00",
+            "price" : "$76,000",
             "color" : "orange"
         },
         {
-            "name" : "Mitsubishi Lancer Evelotion",
+            "name" : "Mitsubishi Lancer Evolution",
             "brand" : "Mitsubishi",
             "category" : "sedan",
             "year" : 2004,
@@ -24,7 +24,7 @@
             "transmission" : "Manual",
             "fuel" : "Gasoline",
             "ilustration" : "https://raw.githubusercontent.com/EduardOrellana/wdd231/main/project/images/Lancer%20evolution%209%20MR.webp",
-            "price" : "Q.356,172.64",
+            "price" : "$26,000",
             "color" : "black"
         },
         {
@@ -37,7 +37,7 @@
             "transmission" : "Manual",
             "fuel" : "Diesel",
             "ilustration" : "https://raw.githubusercontent.com/EduardOrellana/wdd231/main/project/images/Mitsubishi%20L200.webp",
-            "price" : "Q.388,656.28",
+            "price" : "$20,000",
             "color" : "white"
         },
         {
@@ -50,7 +50,7 @@
             "transmission": "6-speed manual",
             "fuel": "Gasoline",
             "ilustration": "https://raw.githubusercontent.com/EduardOrellana/wdd231/main/project/images/Nissan%20Skyline%20GTR%20R35.webp",
-            "price": "Q.150,656.28",
+            "price": "$60,000",
             "color": "blue"
         },
         {
@@ -63,7 +63,7 @@
             "transmission": "6-speed dual-clutch",
             "fuel": "Gasoline",
             "ilustration": "https://raw.githubusercontent.com/EduardOrellana/wdd231/main/project/images/Nissan%20Skyline%20GTR.webp",
-            "price": "Q.110,000.00",
+            "price": "$90,000",
             "color": "blue"
         },
         {
@@ -76,7 +76,7 @@
             "transmission": "9-speed automatic",
             "fuel": "Gasoline",
             "ilustration": "https://raw.githubusercontent.com/EduardOrellana/wdd231/main/project/images/Nissan%C2%A0Frontier.webp",
-            "price": "Q.220,000.00",
+            "price": "$24,000",
             "color": "white"
         },
         {
@@ -89,7 +89,7 @@
             "transmission": "6-speed manual",
             "fuel": "Gasoline",
             "ilustration": "https://raw.githubusercontent.com/EduardOrellana/wdd231/main/project/images/Subaru%20impreza%20sti%202004.webp",
-            "price": "Q.90,000.00",
+            "price": "$22,000",
             "color": "blue"
         },
         {
@@ -102,7 +102,7 @@
             "transmission": "6-speed automatic",
             "fuel": "Diesel",
             "ilustration": "https://raw.githubusercontent.com/EduardOrellana/wdd231/main/project/images/Toyota%20Hilux.webp",
-            "price": "Q.350,000.00",
+            "price": "$31,000",
             "color": "gray"
         },
         {
@@ -115,7 +115,7 @@
             "transmission": "8-speed automatic",
             "fuel": "Gasoline",
             "ilustration": "https://raw.githubusercontent.com/EduardOrellana/wdd231/main/project/images/Toyota%20Supra%20MK4.webp",
-            "price": "Q.95,000.00",
+            "price": "$80,000",
             "color": "gray"
         },
         {
@@ -128,7 +128,7 @@
             "transmission": "8-speed automatic",
             "fuel": "Diesel",
             "ilustration": "https://raw.githubusercontent.com/EduardOrellana/wdd231/main/project/images/Wollkswagem%20Amarok.webp",
-            "price": "Q.228,500.00",
+            "price": "$64,000",
             "color": "black"
         }
     ]
