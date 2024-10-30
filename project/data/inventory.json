@@ -22,7 +22,7 @@
             "cylinder": "1997 c.c.",
             "transmission": "Manual",
             "fuel": "Gasoline",
-            "illustration": "https://raw.githubusercontent.com/xanderbholden/wdd231/main/project/images/evox.jpg",
+            "illustration": "images/evox.jpg",
             "price": "$26,000",
             "color": "black"
         },
