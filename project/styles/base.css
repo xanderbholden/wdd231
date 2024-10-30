@@ -3,8 +3,8 @@ Thi base page, contains the full style of the header and footer of the pages.
 */
 
 :root {
-    --primaryColor: #ff0000;
-    --secondColor: #ffffff;
+    --primaryColor: #f9f9f9;
+    --secondColor: #b83f3f;
     --accent1Color: #bc0000;
     --backGroundColor: #132345;
 
