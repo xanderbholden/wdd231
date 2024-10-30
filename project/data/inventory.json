@@ -1,5 +1,5 @@
 {
-    "inventory": [
+    "collection": [
         {
             "name": "Isuzu Canella D-Max",
             "brand": "Isuzu",
@@ -22,7 +22,7 @@
             "cylinder": "1997 c.c.",
             "transmission": "Manual",
             "fuel": "Gasoline",
-            "illustration": "images/evox.jpg",
+            "illustration": "https://raw.githubusercontent.com/EduardOrellana/wdd231/main/project/images/evox.jpg",
             "price": "$26,000",
             "color": "black"
         },
