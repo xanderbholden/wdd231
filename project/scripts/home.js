@@ -22,6 +22,6 @@ _cars.display_three_random_cars();
 
 const totalCars = dataC.length;
 
-console.log("Esta es mi data");
+console.log("This is my data");
 console.log(totalCars);
 console.log(dataC);
