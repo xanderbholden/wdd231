@@ -65,7 +65,7 @@ class DisplayFetch {
 
 const generalData = {
 
-    json_cars : "https://raw.githubusercontent.com/EduardOrellana/wdd231/main/project/data/car-collection.json",
+    json_cars : "https://raw.githubusercontent.com/xanderbholden/wdd231/main/project/data/inventory.json",
 
     api_weather(lat, lon, apiKey) {
         const baseURL = `//api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=imperial&appid=${apiKey}`;
