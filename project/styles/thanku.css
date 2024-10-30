@@ -1,9 +1,9 @@
 :root {
-    --primaryColor: #ff0000;
-    --secondColor: #ffffff;
-    --accent1Color: #bc0000;
+    --primaryColor: #dad5d5;
+    --secondColor: #7b0c0c;
+    --accent1Color: #901515;
     --backGroundColor: #132345;
-
+    
     --headingFont: "Source Sons 3", sans-serif;
     --paragraphFont: "Montserrat", sans-serif;
 }
