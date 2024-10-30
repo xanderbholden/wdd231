@@ -1,0 +1,15 @@
+:root {
+    --primaryColor: #ff0000;
+    --secondColor: #ffffff;
+    --accent1Color: #bc0000;
+    --backGroundColor: #132345;
+
+    --headingFont: "Source Sons 3", sans-serif;
+    --paragraphFont: "Montserrat", sans-serif;
+}
+
+main {
+    text-align: center;
+    background-color: var(--accent1Color);
+    color: white;
+}

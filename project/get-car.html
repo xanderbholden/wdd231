@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Xander Holden">
+    <meta name="description" content="Web Page of a Online Store of cars called RevZone">
+    <link rel="icon" href="images/favicon.ico">
+    <title>RevZone Cars</title>
+    <link href="styles/base.css" type="text/css" rel="stylesheet">
+    <link href="styles/get-car.css" type="text/css" rel="stylesheet">
+    <script type="module" src="scripts/get-car.js"></script>
+
+    <!--Font 1-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
+    <!--Font 2-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit&display=swap"
+        rel="stylesheet">
+
+    <!--Open Graphs-->
+    <meta property="og:title" content="RevZone - Web Page - AutoCommerce" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://xanderbholden.github.io/wdd231/project/images/RevZone .png" />
+    <meta property="og:url" content="https://xanderbholden.github.io/wdd231/project/index.html" />
+</head>
+
+<body>
+    <header>
+        <section id="icon-container">
+            <figure>
+                <img id="logo-page" src="images/RevZone .png" alt="logo Web Site" width="130" height="130"
+                    loading="lazy">
+                <figcaption>Logo Web Site - RevZone</figcaption>
+            </figure>
+        </section>
+        <h1>RevZone</h1>
+        <div id="navigation-container">
+            <button id="menu" name="menu" title="hamburgerMenu"></button>
+            <nav id="navMenu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="inventory.html">Inventory</a></li>
+                    <li><a href="get-car.html" class="active">Get A Car</a></li>
+                    <li><a href="https://drive.google.com/file/d/1cBehTpasK95FqEpmoqugKSCeuu16MVaJ/view?usp=sharing" target="_blank">Video - Tutoring</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="hero-background">
+            <img id="hero-image-background" src="images/orangensx.jpg" alt="background" loading="lazy" width="500" height="600">
+        </div>
+        <div id="form">
+            <!--Insert Custom Main-->
+            <form method="get" class="form1" action="thanku.html">
+                <fieldset id="personal-information">
+                    <legend>Personal Information</legend>
+                    <label class="required" for="first-name">First Name:</label>
+                    <input type="text" autocomplete="given-name" name="first-name" id="first-name" required
+                        title="First Name">
+                    <label class="required" for="last-name">Last Name:</label>
+                    <input type="text" autocomplete="family-name" name="last-name" id="last-name" required
+                        title="Last Name">
+                    <label class="required" for="email">Email Addres:</label>
+                    <input type="email" autocomplete="email" name="email" id="email" required
+                        placeholder="example@gmail.com" title="Your Email Address">
+                    <label class="required" for="phone-number">Phone Number:</label>
+                    <input type="tel" autocomplete="tel" name="phone-numer" id="phone-number" required
+                        placeholder="+(502) 54134" title="Your phone Number with country code">
+                </fieldset>
+                <fieldset id="car-section">
+                    <legend>Car Section</legend>
+                    <label class="required" for="cars-list">Choose the Car</label>
+                    <select id="cars-list" name="cars-list" title="Cars">
+
+                    </select>
+                </fieldset>
+                <input type="hidden" id="timestamp" name="timestamp">
+                <input type="submit" id="button-submitt" name="submit" value="Buy">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <section id="information-general">
+                <h2>RevZone Commerce</h2>
+                <p>
+                    Provo, Utah<br>
+                    RevZone@gmail.com<br>
+                    385-329-4124
+                </p>
+            </section>
+            <section id="social-media">
+                <img class="social-medialogos" src="images/youtube.jpg" alt="youtube" width="30"
+                    height="30" loading="lazy">
+                <img class="social-medialogos" src="images/insta.jpg" alt="instagram" height="30"
+                    width="30" loading="lazy">
+                <img class="social-medialogos" src="images/fb.jpg" alt="facebook" height="30"
+                    width="30" loading="lazy">
+            </section>
+            <section id="information-footer">
+                <p>
+                    <span>&copy;</span>
+                    <span id="currentyear"></span>
+                    Xander Holden
+                    Provo, Utah
+                </p>
+                <p id="modified"></p>
+                <hr>
+                <img src="images/americanflag.jpg" width="30" height="35" loading="lazy" alt="americanFlag">
+            </section>
+        </div>
+    </footer>
+</body>
+
+</html>
