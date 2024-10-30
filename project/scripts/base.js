@@ -114,8 +114,7 @@ class DisplayItems {
     }
 
     displayAll(object = this.item) {
-        //This Method will display the items for the cars
-        // object = this.item;
+    
 
         object.forEach(i => {
 
