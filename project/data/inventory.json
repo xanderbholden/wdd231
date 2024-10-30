@@ -22,7 +22,7 @@
             "cylinder": "1997 c.c.",
             "transmission": "6-speed manual",
             "fuel": "Gasoline",
-            "illustration": "images/evo2004.jpg",
+            "ilustration": "images/evo2004.jpg",
             "price": "$26,000",
             "color": "black"
         },
@@ -35,7 +35,7 @@
             "cylinder": "2.442 c.c.",
             "transmission": "Manual",
             "fuel": "Diesel",
-            "illustration": "images/l200.jpg",
+            "ilustration": "images/l200.jpg",
             "price": "$20,000",
             "color": "white"
         },
@@ -48,7 +48,7 @@
             "cylinder": "6",
             "transmission": "6-speed manual dual clutch",
             "fuel": "Gasoline",
-            "illustration": "images/gtr.jpg",
+            "ilustration": "images/gtr.jpg",
             "price": "$60,000",
             "color": "blue"
         },
@@ -61,7 +61,7 @@
             "cylinder": "6",
             "transmission": "6-speed manual",
             "fuel": "Gasoline",
-            "illustration": "images/gtrnur.jpg",
+            "ilustration": "images/gtrnur.jpg",
             "price": "$90,000",
             "color": "blue"
         },
@@ -74,7 +74,7 @@
             "cylinder": "6",
             "transmission": "9-speed automatic",
             "fuel": "Gasoline",
-            "illustration": "images/frontier.jpg",
+            "ilustration": "images/frontier.jpg",
             "price": "$24,000",
             "color": "white"
         },
@@ -87,7 +87,7 @@
             "cylinder": "4",
             "transmission": "6-speed manual",
             "fuel": "Gasoline",
-            "illustration": "images/sti2018.jpg",
+            "ilustration": "images/sti2018.jpg",
             "price": "$22,000",
             "color": "blue"
         },
@@ -100,7 +100,7 @@
             "cylinder": "4",
             "transmission": "6-speed automatic",
             "fuel": "Diesel",
-            "illustration": "images/helix.jpg",
+            "ilustration": "images/helix.jpg",
             "price": "$31,000",
             "color": "gray"
         },
@@ -113,7 +113,7 @@
             "cylinder": "6",
             "transmission": "6-speed manual",
             "fuel": "Gasoline",
-            "illustration": "images/mk4.jpg",
+            "ilustration": "images/mk4.jpg",
             "price": "$80,000",
             "color": "gray"
         },
@@ -126,7 +126,7 @@
             "cylinder": "6",
             "transmission": "8-speed automatic",
             "fuel": "Diesel",
-            "illustration": "images/amarok.jpg",
+            "ilustration": "images/amarok.jpg",
             "price": "$64,000",
             "color": "black"
         }
